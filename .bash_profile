@@ -18,6 +18,7 @@ function hero() {
     git push heroku master
 }
 function ll() {
+    git add .    
     git commit -a -m "$1"
     git push
 }
